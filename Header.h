@@ -7,3 +7,6 @@ typedef struct account {
 	int price;
 	struct account* next;
 } books;
+ void Show(books* g);
+   void swap(books*a, books*b);
+   void AlphaSort(books* a);
